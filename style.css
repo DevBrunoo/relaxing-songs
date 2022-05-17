@@ -1,0 +1,48 @@
+body {
+    width: 90%;
+}
+html {
+    width: 100%;
+}
+img {
+    width: 70%;
+    width: 550px;
+    border-radius: 8px;
+    height: 70%;
+    object-position: center;
+}
+button {
+    width: 140px;
+    height: 40px;
+    object-position: center;
+    text-align: center;
+    background-position-x: center;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .body {
+        width: 80%;
+        text-align: end;
+    }
+    .html{
+        width: 50%;
+    }
+    .console-container{
+        font-size: 50px;
+        width: 240%;
+    }
+    .giphy-embed {
+      width: 1px;
+      height: 1px;
+    }
+    .main-title .col-12{
+      width: 30px;
+    }
+    .about-title, .sfa-check{
+      width: 90%;
+      text-align: center;
+    }
+    .pclass {
+      width: 90%;
+    }
+    }
